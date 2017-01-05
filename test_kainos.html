@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Studija</title>
+		<meta charset="utf-8"> 
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="#!" class="breadcrumb">Į pradžią</a>
+        <a href="#!" class="breadcrumb">Kainoraštis</a>
+       </div>
+    </div>
+  </nav>
+<div class="container">
+    <div class="row">
+    <div class = "col 14 s12"><div>
+    <h4 class= "center-align"> Paslaugų kainoraštis </h4>
+    <br> <br>
+<table class = "highlight">
+        <thead>
+          <tr>
+              <th data-field="paslauga">Paslauga</th>
+              <th data-field="kaina">Kaina, €/h</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Vokalo įrašymas</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>Garso takelio įrašymas</td>
+            <td>40</td>
+          </tr>
+          <tr>
+            <td>Garso dizainas</td>
+            <td>15</td>
+          </tr>
+            <tr>
+            <td>Filmavimas įrašų studijoje</td>
+            <td>50</td>
+          </tr>
+        </tbody>
+      </table>
+            
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<br><br>
+    <h6 class= "center-align">Su mūsų pagalba galėsite bendradarbiauti su įvairių sričių profesionalais</h6>
+<br>
+<canvas id="myChart" width="100" height="100"></canvas>
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+    labels: ["Vokalistai", "Instrumentalistai", "Prodiuseriai", "Vaizdo režisieriai"],
+    datasets: [{
+      backgroundColor: [
+        "#2ecc71",
+        "#3498db",
+        "#95a5a6",
+        "#9b59b6",
+          ],
+      data: [17, 19, 3, 4]
+    }]
+  }
+});
+</script>
+
+</body>
+</html>

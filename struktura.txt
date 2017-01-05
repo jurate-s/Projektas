@@ -1,0 +1,20 @@
+Kaireje:
+[pradzia] (homepage- pagal pg1 - ideti apacioje tris video su autoplay) footer + newsletter subscription
+-naujausi darbai (pagal pg2)
+ *trys nuorodos i puslapius pagal pg3
+-galerija (prideti cool photo galeriju)
+----
+
+Apie studija
+ -> producer1
+ -> producer 2
+
+KAINORASTIS
+KONTAKTAI - zemelapis, telefonas, FB link etc
+APIE STUDIJA - about us, person 1, person 2
+
+Desineje:
+-Kainorastis (galima prikurti grafiku pagal pg5)
+-Studija (pagal pg4) (Komanda: psl -->P // psl-->J;// zemelapis; FB link; kontaktai...; contact us forma)
+-muzika: soundcloud
+
